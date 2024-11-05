@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+header {
+    background-color: rgb(70, 162, 71);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Language Switcher */
+.language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10rem;
+    background-color: rgb(70, 162, 71);
+    display: flex;
+    gap: 1rem;
+}
+
+.language-switcher a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.language-switcher a img {
+    width: 20px;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.language-switcher a.active {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.download-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.download-section {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.download-section h2 {
+    color: #004a99;
+}
+
+.description {
+    font-size: 14px;
+    color: #333;
+}
+
+.download-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
+
+/* Video styling */
+video {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgb(70, 162, 71);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .download-section {
+        width: 100%;
+    }
+}
+
+/* Search input styling */
+#searchInput {
+    width: 50%;
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
